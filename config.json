@@ -1,0 +1,11 @@
+{
+    "name": "e-typing-lowercase",
+    "description": "Lowercase e-typing website",
+
+    "address": "www.e-typing.ne.jp",
+    "scripts": "./scripts/",
+
+    "options": {
+        "proxyHTTPS": true
+    }
+}
