@@ -12,7 +12,11 @@ function streamToString(stream) {
 export default {
     match: [
         '/',
-        '/roma/check/'
+        '/roma/check/',
+        '/english',
+        '/english/check',
+        '/kana',
+        '/kana/check',
     ],
     response: async (req, res, requestProxy) => {
         const proxyResponse = await requestProxy();
