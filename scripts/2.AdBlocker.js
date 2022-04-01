@@ -16,7 +16,7 @@ export default {
         '/english/',
         '/english/check',
         '/kana/',
-        '/kana/check',
+        '/kana/check/',
     ],
     response: async (req, res, requestProxy) => {
         const proxyResponse = await requestProxy();
