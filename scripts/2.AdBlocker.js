@@ -13,9 +13,9 @@ export default {
     match: [
         '/',
         '/roma/check/',
-        '/english',
+        '/english/',
         '/english/check',
-        '/kana',
+        '/kana/',
         '/kana/check',
     ],
     response: async (req, res, requestProxy) => {
